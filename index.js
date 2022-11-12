@@ -15,6 +15,10 @@ app.get('/users', async (req, res) => {
   }])
 })
 
+app.get('random', aysnc (req,res) => {
+  res.send('Hello I am random page')
+})
+
 app.listen(port, (err) => {
   if (err) {
     console.log('app failed to load')
