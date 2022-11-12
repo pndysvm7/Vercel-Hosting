@@ -15,7 +15,7 @@ app.get('/users', async (req, res) => {
   }])
 })
 
-app.get('/random', aysnc (req,res) => {
+app.get('/random', async (req, res) => {
   res.send('Hello I am random page')
 })
 
